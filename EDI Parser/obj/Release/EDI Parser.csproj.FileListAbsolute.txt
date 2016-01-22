@@ -1,0 +1,4 @@
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\EDI Parser\bin\Release\EDI Parser.dll
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\EDI Parser\bin\Release\EDI Parser.pdb
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\EDI Parser\obj\Release\EDI Parser.dll
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\EDI Parser\obj\Release\EDI Parser.pdb

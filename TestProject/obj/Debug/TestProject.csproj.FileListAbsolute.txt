@@ -1,0 +1,18 @@
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\obj\Debug\TestProject.csproj.GenerateResource.Cache
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\bin\Debug\TestProject.dll
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\bin\Debug\TestProject.pdb
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\bin\Debug\EDI Parser.dll
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\bin\Debug\EDI Parser.pdb
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\obj\Debug\TestProject.dll
+c:\users\authorized user\documents\visual studio 2013\Projects\EDI Parser\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\bin\Debug\TestProject.dll
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\bin\Debug\EDI Parser.dll
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\bin\Debug\EDI Parser.pdb
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\obj\Debug\TestProject.csproj.GenerateResource.Cache
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\obj\Debug\TestProject.dll
+C:\Users\Authorized User\Documents\GitHub\EDIParser\EDIParser\TestProject\obj\Debug\TestProject.pdb

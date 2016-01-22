@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E82E2BF8-7C23-4BA3-88F1-30D3EC25C850}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDI_Parser</RootNamespace>
+    <AssemblyName>EDI Parser</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\FieldCheckAttribute.cs" />
+    <Compile Include="Attributes\MessageTypeAttribute.cs" />
+    <Compile Include="Attributes\PositionIndexAttribute.cs" />
+    <Compile Include="Attributes\SegmentIdAttribute.cs" />
+    <Compile Include="EDIParser.cs" />
+    <Compile Include="Messages\5010\Msg837P.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="Messages\MessageBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Segments\SV1_Segment.cs" />
+    <Compile Include="Segments\CR1_Segment.cs" />
+    <Compile Include="Segments\HI_Segment.cs" />
+    <Compile Include="Segments\LX_Segment.cs" />
+    <Compile Include="Segments\NTE_Segment.cs" />
+    <Compile Include="Segments\PWK_Segment.cs" />
+    <Compile Include="Segments\AMT_Segment.cs" />
+    <Compile Include="Segments\CLM_Segment.cs" />
+    <Compile Include="Segments\DMG_Segment.cs" />
+    <Compile Include="Segments\IComplexField.cs" />
+    <Compile Include="Segments\PAT_Segment.cs" />
+    <Compile Include="Segments\SBR_Segment.cs" />
+    <Compile Include="Segments\N4_Segment.cs" />
+    <Compile Include="Segments\N3_Segment.cs" />
+    <Compile Include="Segments\PRV_Segment.cs" />
+    <Compile Include="Segments\BHT_Segment.cs" />
+    <Compile Include="Segments\GE_Segment.cs" />
+    <Compile Include="Segments\GS_Segment.cs" />
+    <Compile Include="Segments\HL_Segment.cs" />
+    <Compile Include="Segments\IEA_Segment.cs" />
+    <Compile Include="Segments\ISA_Segment.cs" />
+    <Compile Include="Segments\NM1_Segment.cs" />
+    <Compile Include="Segments\PER_Segment.cs" />
+    <Compile Include="Segments\REF_Segment.cs" />
+    <Compile Include="Segments\SegmentBase.cs" />
+    <Compile Include="Segments\SE_Segment.cs" />
+    <Compile Include="Segments\ST_Segment.cs" />
+    <Compile Include="TransactionSet.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
